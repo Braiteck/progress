@@ -1,0 +1,740 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 34px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: 184px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding-top: 72px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        padding: 12px 0;
+    }
+
+
+    .mob_header .logo img
+    {
+        height: 48px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 36px;
+    }
+
+
+    .block_head .desc
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        margin-top: 20px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .fields
+    {
+        margin-left: 0;
+    }
+
+    .form .fields > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 23px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider
+    {
+        margin-bottom: -160px;
+    }
+
+    .main_slider .cont
+    {
+        height: 560px;
+        padding-top: 52px;
+        padding-bottom: 220px;
+    }
+
+
+    .main_slider .data
+    {
+        width: 100%;
+    }
+
+
+    .main_slider .title
+    {
+        font-size: 36px;
+    }
+
+
+    .main_slider .desc
+    {
+        font-size: 16px;
+
+        width: 360px;
+    }
+
+
+    .main_slider .do
+    {
+        margin-top: 32px;
+    }
+
+
+    .main_slider .bg
+    {
+        top: auto;
+        bottom: -28%;
+
+        height: 128%;
+    }
+
+    .main_slider .bg.swiper-lazy-loaded
+    {
+        opacity: .5;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form .block_title
+    {
+        font-size: 21px;
+        line-height: 25px;
+
+        padding: 12px 24px;
+    }
+
+
+    .order_form .data
+    {
+        padding: 24px;
+    }
+
+
+    .order_form .title
+    {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+
+    .order_form .options .row
+    {
+        margin-left: 0;
+    }
+
+    .order_form .options .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .order_form .options label
+    {
+        padding-left: 24px;
+    }
+
+    .order_form .options label .check
+    {
+        top: 2px;
+    }
+
+
+    .order_form .bottom
+    {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    .order_form .agree
+    {
+        width: 100%;
+        max-width: 100%;
+        min-height: 0;
+        margin-left: 0;
+    }
+
+
+    .order_form .managers
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+    .categories .row:not(.cont)
+    {
+        margin-bottom: -16px;
+        margin-left: 0;
+    }
+
+    .categories .row:not(.cont) > *
+    {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+
+
+    .categories .tab_content .title
+    {
+        font-size: 26px;
+        line-height: 30px;
+
+        padding: 24px;
+    }
+
+    .categories .tab_content .title br
+    {
+        display: none;
+    }
+
+
+
+    .categories .category .name
+    {
+        min-height: 0;
+    }
+
+    .categories .category .name br
+    {
+        display: none;
+    }
+
+
+    .categories .category .btn
+    {
+        font-size: 12px;
+        line-height: 16px;
+
+        padding: 11px 11px 10px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .block_head
+    {
+        margin-bottom: 36px;
+    }
+
+
+    .advantages .row
+    {
+        margin-bottom: -16px;
+        margin-left: 0;
+    }
+
+    .advantages .row > *
+    {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+
+    .advantages .item .name
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .advantages .item .desc
+    {
+        line-height: 21px;
+    }
+
+
+
+    /*----------------
+        Any spaces
+    ----------------*/
+    .any_spaces
+    {
+        padding-top: 208px;
+    }
+
+
+    .any_spaces .block_head
+    {
+        margin-bottom: 36px;
+    }
+
+
+    .any_spaces .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .any_spaces .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .any_spaces .item
+    {
+        display: block;
+
+        padding: 20px;
+    }
+
+
+    .any_spaces .item .icon
+    {
+        margin-bottom: 16px;
+    }
+
+    .any_spaces .item .icon + *
+    {
+        width: 100%;
+    }
+
+
+    .any_spaces .item .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .any_spaces .img
+    {
+        right: 0;
+
+        width: auto;
+        min-width: 200px;
+        height: 252px;
+        margin-right: -116px;
+    }
+
+
+
+    /*----------------
+        Guarantees
+    ----------------*/
+    .guarantees .block_head
+    {
+        margin-bottom: 36px;
+    }
+
+
+    .guarantees .accordion_item
+    {
+        padding: 24px 60px 24px 80px;
+    }
+
+
+    .guarantees .accordion_item .head:after
+    {
+        right: 24px;
+    }
+
+
+    .guarantees .accordion_item .icon
+    {
+        left: 30px;
+    }
+
+
+    .guarantees .accordion_item .head .title
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .guarantees .accordion_item .data
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding-bottom: 4px;
+    }
+
+
+    .guarantees .accordion_item.active .icon
+    {
+        left: 15px;
+    }
+
+
+    .guarantees .directions
+    {
+        padding: 24px;
+    }
+
+
+    .guarantees .directions .title
+    {
+        font-size: 20px;
+        line-height: 26px;
+
+        width: 100%;
+    }
+
+
+    .guarantees .directions .list
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    .guarantees .pluses
+    {
+        margin-bottom: -16px;
+        margin-left: 0;
+    }
+
+    .guarantees .pluses > *
+    {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+
+    .guarantees .pluses .item
+    {
+        padding: 24px;
+    }
+
+    .guarantees .pluses .icon
+    {
+        width: 56px;
+        height: 56px;
+    }
+
+
+
+    /*------------
+        Safety
+    ------------*/
+    .safety .items
+    {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+
+    .safety .items > *,
+    .safety .items > *.tablet_big_w
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .safety .items .exp
+    {
+        min-height: 0;
+    }
+
+
+
+    .safety .specialist
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .safety .specialist .person
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .safety .specialist .quote
+    {
+        font-size: 17px;
+
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .safety .specialist .quote img
+    {
+        margin: 0 auto 20px;
+    }
+
+
+
+    .safety .license .text
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        width: 100%;
+        padding: 20px 24px;
+    }
+
+
+    .safety .license .gosts
+    {
+        width: 100%;
+        padding: 20px 24px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .block_head
+    {
+        width: 100%;
+        margin-top: 24px;
+
+        order: 2;
+    }
+
+    .about_info .block_head .icon
+    {
+        width: 52px;
+        margin-bottom: 24px;
+    }
+
+    .about_info .block_head .desc
+    {
+        margin-top: 24px;
+    }
+
+
+    .about_info .big_boss
+    {
+        width: 340px;
+        margin: 0 auto;
+    }
+
+
+
+    /*-----------------
+        Specialists
+    -----------------*/
+    .specialists .block_head
+    {
+        margin-bottom: 36px;
+    }
+
+
+    .specialists .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+    .specialists .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .clients-swiper-button-prev,
+    .clients .clients-swiper-button-next
+    {
+        display: none !important;
+    }
+
+
+    .clients .data .item .col
+    {
+        width: 100%;
+    }
+
+    .clients .data .item .col + .col
+    {
+        margin-top: 12px;
+    }
+
+
+    .clients .data .images
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .cont
+    {
+        pointer-events: auto;
+    }
+
+
+    .contacts_info .data
+    {
+        width: 100%;
+    }
+
+
+    .contacts_info #map
+    {
+        position: relative;
+        z-index: 1;
+
+        width: calc(100% + 40px);
+        height: 400px;
+        margin: 40px -20px 0;
+    }
+
+
+    .contacts_info #map:before
+    {
+        height: 140px;
+    }
+
+    .contacts_info #map:after
+    {
+        height: 92px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        border-width: 8px;
+    }
+
+
+    footer .info
+    {
+        padding: 20px 0;
+    }
+
+
+    footer .logo img
+    {
+        height: 48px;
+    }
+
+
+    footer .callback_btn
+    {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px;
+    }
+
+
+    .modal .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+    .modal .block_head .title
+    {
+        font-size: calc(var(--font_size_title) - 4px);
+    }
+
+
+    .modal.privacy_policy
+    {
+        padding: 40px 32px;
+    }
+}

@@ -1,0 +1,318 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 32px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding-top: 64px;
+    }
+
+
+    header .phone
+    {
+        width: 100%;
+    }
+
+
+    header .callback_btn
+    {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .logo img
+    {
+        height: 40px;
+    }
+
+
+    .mob_header .phone
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .mob_header .mob_menu_btn
+    {
+        width: 26px;
+        height: 26px;
+        margin-right: 0;
+        margin-left: 16px;
+        padding: 0;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit_btn
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        height: 53px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .title
+    {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+
+    .main_slider .desc
+    {
+        line-height: 22px;
+
+        margin-top: 16px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form .block_title
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        padding: 12px 20px;
+    }
+
+
+    .order_form .data
+    {
+        padding: 20px;
+    }
+
+
+    .order_form .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .order_form .title .icon + span
+    {
+        width: calc(100% - 64px);
+    }
+
+
+    .order_form .options
+    {
+        margin-left: 0;
+    }
+
+    .order_form .options .col,
+    .order_form .options .col.middle_w,
+    .order_form .options .col.big_w
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .order_form .agree
+    {
+        font-size: 14px;
+    }
+
+
+    .order_form .manager
+    {
+        padding-left: 24px;
+    }
+
+    .order_form .managers .swiper
+    {
+        height: 72px;
+    }
+
+    .order_form .manager .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .order_form .manager .post
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .category
+    {
+        padding: 20px;
+    }
+
+
+    .categories .category .name
+    {
+        line-height: 22px;
+    }
+
+
+    .categories .category .btn
+    {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .item
+    {
+        padding: 24px;
+    }
+
+
+
+    /*----------------
+        Any spaces
+    ----------------*/
+    .any_spaces
+    {
+        padding-bottom: 60px;
+    }
+
+
+    .any_spaces .row
+    {
+        margin-left: 0;
+    }
+
+    .any_spaces .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .any_spaces .img
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Guarantees
+    ----------------*/
+    .guarantees .accordion_item .head .title
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+
+    .guarantees .directions
+    {
+        padding: 20px;
+    }
+
+    .guarantees .directions .title
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+
+    /*------------
+        Safety
+    ------------*/
+    .safety .items .info
+    {
+        padding: 20px;
+    }
+
+
+
+    /*------------
+        Certs
+    ------------*/
+    .certs .cert picture
+    {
+        padding: 16px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .data .consult .btn
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        padding: 24px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 32px;
+    }
+
+
+    .modal.privacy_policy
+    {
+        padding: 32px 24px;
+    }
+}
