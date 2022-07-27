@@ -266,6 +266,10 @@
     }
 
 
+    .categories .category
+    {
+        height: auto;
+    }
 
     .categories .category .name
     {
